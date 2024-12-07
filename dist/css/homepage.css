@@ -1,3 +1,27 @@
+@font-face {
+  font-family: "BacasimeAntique";
+  font-display: swap;
+  src: url("../fonts/BacasimeAntique-Regular.woff2") format("woff2"), url("../fonts/BacasimeAntique-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "WixMadeforDisplay";
+  font-display: swap;
+  src: url("../fonts/WixMadeforDisplay-Medium.woff2") format("woff2"), url("../fonts/WixMadeforDisplay-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "WixMadeforDisplay";
+  font-display: swap;
+  src: url("../fonts/WixMadeforDisplay-Regular.woff2") format("woff2"), url("../fonts/WixMadeforDisplay-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
 :root {
   --gray: #3A3232;
   --red: #640107;
@@ -6,8 +30,8 @@
   --border: #F3ECEA;
   --bg-gray: #f3f2f1;
   --bg-main: #F8F8F8;
-  --font-family: "Wix Madefor Display";
-  --second-family: "Bacasime Antique";
+  --font-family: "WixMadeforDisplay";
+  --second-family: "BacasimeAntique";
   --box-shadow: 6px 6px 20px 0 rgba(58, 50, 50, 0.2);
 }
 
